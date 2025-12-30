@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import ipRangeCheck from 'ip-range-check';
-import { supabase } from '@/lib/supabase';
+import { supabase } from 'lib/supabase';
 
 const allowed = ['192.168.1.0/24'];
 
